@@ -33,7 +33,7 @@ jobs:
           context: ./src
           file: ./src/Dockerfile
           push: true
-          tags:
+          tags: |
             rogeriostos/rotten-potatoes:latest
             rogeriostos/rotten-potatoes:${{ github.run_number }}
        
