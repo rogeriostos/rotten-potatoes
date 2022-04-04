@@ -91,4 +91,4 @@ spec:
   - port: 80
     targetPort: 5000 #porta do pod
     nodePort: 30000
-  type: NodePort
+  type: LoadBalancer
